@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld renders a title and button 1`] = `
+<AppWrapper>
+  <h1>
+    Hello world!
+  </h1>
+  <Button
+    as="secondary"
+    disabled={false}
+    onClick={[Function]}
+    size="medium"
+    subtext=""
+    theme="blue"
+  >
+    Click me!
+  </Button>
+</AppWrapper>
+`;

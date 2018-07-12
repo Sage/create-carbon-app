@@ -1,0 +1,6 @@
+node_modules/
+coverage/
+assets/
+*.swp
+*.swo
+.DS_Store

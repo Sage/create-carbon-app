@@ -1,0 +1,14 @@
+{
+  "name": "create-carbon-app",
+  "version": "1.0.0",
+  "description": "Easily get started with a new Carbon based app.",
+  "main": "index.js",
+  "bin": {
+    "create-carbon-app": "./index.js"
+  },
+  "author": "The Sage Group plc",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fs-extra": "^6.0.1"
+  }
+}

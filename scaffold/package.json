@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "ci": "npm run lint -- ./src && npm run jest",
+    "start": "node_modules/.bin/webpack-dev-server",
+    "build": "NODE_ENV=production node_modules/.bin/webpack",
+    "jest": "./node_modules/.bin/jest",
+    "lint": "./node_modules/.bin/eslint",
+    "test": "node --inspect=0.0.0.0:9229 ./node_modules/.bin/jest --watchAll"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "carbon-react": "4.1.0",
+    "flux": "3.1.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.0"
+  },
+  "devDependencies": {
+    "carbon-factory": "4.2.2",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+assets/
+*.swp
+*.swo
+.DS_Store
+scaffold/node_modules
+scaffold/assets
+scaffold/coverage
