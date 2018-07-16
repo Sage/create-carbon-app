@@ -4,12 +4,14 @@
   "description": "",
   "scripts": {
     "ci": "npm run lint -- ./src && npm run jest",
-    "start": "node_modules/.bin/webpack-dev-server",
-    "build": "NODE_ENV=production node_modules/.bin/webpack",
-    "test": "./node_modules/.bin/jest --watchAll",
+    "start": "npm run webpack-dev-server",
+    "build": "NODE_ENV=production npm run webpack",
+    "test": "npm run jest -- --watchAll",
+    "debug": "node --inspect=0.0.0.0:9229 ./node_modules/.bin/jest --watchAll",
     "jest": "./node_modules/.bin/jest",
     "lint": "./node_modules/.bin/eslint",
-    "debug": "node --inspect=0.0.0.0:9229 ./node_modules/.bin/jest --watchAll"
+    "webpack": "./node_modules/.bin/webpack",
+    "webpack-dev-server": "./node_modules/.bin/webpack-dev-server"
   },
   "author": "",
   "license": "UNLICENSED",

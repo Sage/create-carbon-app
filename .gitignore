@@ -5,6 +5,3 @@ assets/
 *.swo
 .DS_Store
 scaffold/package-lock.json
-scaffold/node_modules
-scaffold/coverage
-scaffold/assets
