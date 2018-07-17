@@ -18,13 +18,13 @@
   "license": "UNLICENSED",
   "dependencies": {
     "carbon-react": "^4.0.0",
-    "flux": "3.1.1",
-    "react": "16.2.0",
-    "react-dom": "16.2.0"
+    "flux": "^3.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
-    "carbon-factory": "^4.0.0",
-    "enzyme": "3.3.0",
-    "enzyme-adapter-react-16": "1.1.1"
+    "carbon-factory": "^5.0.0",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0"
   }
 }
