@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "create-carbon-app",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -17,13 +17,16 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "carbon-react": "^4.0.0",
+    "carbon-react": "^8.0.1",
+    "carbon-state-management": "^1.0.0",
+    "core-js": "^3.1.4",
     "flux": "^3.0.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "i18n-js": "http://github.com/fnando/i18n-js/archive/v3.0.0.rc12.tar.gz",
+    "react": "^16.8.7",
+    "react-dom": "^16.8.7"
   },
   "devDependencies": {
-    "carbon-factory": "^5.0.0",
+    "carbon-factory": "^8.0.1",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.0"
   }
