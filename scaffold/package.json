@@ -21,7 +21,7 @@
     "carbon-state-management": "^1.0.0",
     "core-js": "^3.1.4",
     "flux": "^3.0.0",
-    "i18n-js": "http://github.com/fnando/i18n-js/archive/v3.0.0.rc12.tar.gz",
+    "i18n-js": "fnando/i18n-js#v3.0.0.rc12",
     "react": "^16.8.7",
     "react-dom": "^16.8.7"
   },
