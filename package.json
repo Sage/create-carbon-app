@@ -1,6 +1,6 @@
 {
   "name": "create-carbon-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easily get started with a new Carbon based app.",
   "main": "index.js",
   "bin": {
